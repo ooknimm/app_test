@@ -116,10 +116,10 @@
 
 ## step 2
 - nodejs의 puppeteer를 사용하여 자동화
-- https://apptest.ai 사이트의 첫 화면에서 Click 가능한 모든 요소(element)를 추출한다.
-- 추출된 각 요소에 대한 정보를 JSON 파일의 형태로 저장한다.
-- JSON 파일을 읽어서, JSON 파일에 있는 element들을 순서대로 Click한다.
-- 각 element들이 클릭될 때마다, 클릭된 결과 화면에 대하여 스크린샷 이미지를 저장한다.
+- https://apptest.ai 사이트의 첫 화면에서 Click 가능한 모든 요소(element)를 추출
+- 추출된 각 요소에 대한 정보를 JSON 파일의 형태로 저장
+- JSON 파일을 읽어서, JSON 파일에 있는 element들을 순서대로 Click
+- 각 element들이 클릭될 때마다, 클릭된 결과 화면에 대하여 스크린샷 이미지를 저장
 
 ### 실행 파일 
 
