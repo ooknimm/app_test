@@ -6,8 +6,8 @@ from flask import Flask, jsonify, request, g
 import bcrypt
 import pymysql
 
-from .connection import get_connection
-from .validator import (
+from connection import get_connection
+from validator import (
                     login_id_validator,
                     name_validator,
                     email_validator,
@@ -16,7 +16,7 @@ from .validator import (
                     update_exist_check,
                     birth_date_validator
                 )
-from .utils import token_generator, login_decorator
+from utils import token_generator, login_decorator
 
 
 def create_app():

@@ -1,9 +1,9 @@
 import bcrypt
 import jwt
 
-from ..model import UserDao
-from ..utils.custom_exceptions import UserAlreadyExist, UserDoesNotExist, LoginException, PutUserInformationError
-from ..utils.enums import PermissionTypeEnum
+from model import UserDao
+from utils.custom_exceptions import UserAlreadyExist, UserDoesNotExist, LoginException, PutUserInformationError
+from utils.enums import PermissionTypeEnum
 
 
 class UserService:

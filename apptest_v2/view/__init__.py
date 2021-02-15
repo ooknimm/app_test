@@ -1,5 +1,5 @@
-from ..view.user_view import UserLoginView, UserDetailView, UserListView, UserSignUpView, AdminSignUpView
-from ..utils.error_handler import error_handle
+from view.user_view import UserLoginView, UserDetailView, UserListView, UserSignUpView, AdminSignUpView
+from utils.error_handler import error_handle
 
 
 def create_endpoints(app, services, database):

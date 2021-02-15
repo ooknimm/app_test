@@ -1,8 +1,8 @@
 from flask import Flask
 
-from .view import create_endpoints
-from .service import UserService
-from .utils.custom_json_encoder import CustomJSONEncoder
+from view import create_endpoints
+from service import UserService
+from utils.custom_json_encoder import CustomJSONEncoder
 
 
 class Service:

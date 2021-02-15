@@ -11,11 +11,11 @@ from flask_request_validator import (
     Enum
 )
 
-from ..utils.rules import EmailRule, LoginIdRule, PasswordRule, BirthDateRule, NameRule, MemoRule, ZeroRule, PutEmailRule
-from ..utils.connection import get_connection
-from ..utils.decorator import login_decorator
-from ..utils.enums import PermissionTypeEnum
-from ..utils.custom_exceptions import PermissionDeniedError, PutUserInformationError
+from utils.rules import EmailRule, LoginIdRule, PasswordRule, BirthDateRule, NameRule, MemoRule, ZeroRule, PutEmailRule
+from utils.connection import get_connection
+from utils.decorator import login_decorator
+from utils.enums import PermissionTypeEnum
+from utils.custom_exceptions import PermissionDeniedError, PutUserInformationError
 
 
 class UserSignUpView(MethodView):

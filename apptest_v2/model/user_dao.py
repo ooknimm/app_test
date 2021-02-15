@@ -1,7 +1,7 @@
 import pymysql
 
-from ..utils.custom_exceptions import DatabaseException
-from ..utils.enums import PermissionTypeEnum
+from utils.custom_exceptions import DatabaseException
+from utils.enums import PermissionTypeEnum
 
 
 class UserDao:
