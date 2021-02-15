@@ -60,7 +60,7 @@ async function readJson() {
             if (href.includes('mailto')) {
                 continue
             } else {
-                await ele.click();
+                await element.click();
                 //void 링크의 경우 waitForNavigation를 사용하면 타임아웃이 걸린다.
                 if (!href.includes('javascript:void')) {
                     await page.waitForNavigation();
