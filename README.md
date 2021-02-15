@@ -128,8 +128,6 @@
 ### 기타 파일 및 디렉토리
 
 
-클릭된 결과 화면 스크린샷 저장소
-+ wep-scraping/screenshots/
++ 클릭된 결과 화면 스크린샷 저장소 : wep-scraping/screenshots/
 
-클릭 가능한 요소 추출 파일
-+ scrapingJson.json
++ 클릭 가능한 요소 추출 파일 : wep-scraping/scrapingJson.json
