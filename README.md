@@ -34,8 +34,6 @@
 ### API 문서
 링크 : https://documenter.getpostman.com/view/13473885/TWDRszPd
 
-
-<br>
 <br>
 
 ### 개선이 필요한 점
@@ -98,6 +96,9 @@
 
 # 과제 2
 
+### dir
++ wep-scraping
+
 <br>
 
 ## step 1
@@ -120,6 +121,15 @@
 - JSON 파일을 읽어서, JSON 파일에 있는 element들을 순서대로 Click한다.
 - 각 element들이 클릭될 때마다, 클릭된 결과 화면에 대하여 스크린샷 이미지를 저장한다.
 
-### 실행파일 
+### 실행 파일 
 
 + wep-scraping/wepScraper_v2.js
+
+### 기타 파일 및 디렉토리
+
+
+클릭된 결과 화면 스크린샷 저장소
++ wep-scraping/screenshots/
+
+클릭 가능한 요소 추출 파일
++ scrapingJson.json
