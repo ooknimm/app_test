@@ -103,6 +103,8 @@ class ZeroRule(AbstractRule):
     """
 
     def validate(self, value):
+        if not value.isdigit():
+            raise RuleError('INVALID_VALUE')
         if value == '0':
             return 0
         return int(value)
